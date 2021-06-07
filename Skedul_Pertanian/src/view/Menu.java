@@ -185,6 +185,9 @@ public class Menu extends javax.swing.JFrame {
 
     private void aboutMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_aboutMouseClicked
         // TODO add your handling code here:
+        skedul s = new skedul();
+        s.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_aboutMouseClicked
 
     /**
